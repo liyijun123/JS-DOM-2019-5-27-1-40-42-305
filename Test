@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <input type="text" value="" id="input1"><br>
+        <input type="text" value="" id="input2"><br>
+        <input type="button" value="登陆" onclick="f()">
+    </div>
+</body>
+<script>
+    function f() {
+        if (document.getElementById("input1") == "123" && document.getElementById("input2") == "123") {
+            alert("登陆成功");
+        } else {
+            alert("登陆失败");
+        }
+    }
+</script>
+</html>
